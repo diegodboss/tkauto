@@ -1,6 +1,6 @@
 # nicetker
 
-简单又好用的tiktok图文、视频发布接口
+简单又好用的tiktok图文、视频发布接口，功能强大，不需要魔法。agent轻松引用
 
 ## Features
 
