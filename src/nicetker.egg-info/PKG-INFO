@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: nicetker
+Version: 0.1.0
+Summary: Python client for 51suchuang API
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+
+# nicetker
+
+Python client for `https://t.51suchuang.com`.
+
+## Install (editable)
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+```python
+from nicetker import SuchuangClient
+
+client = SuchuangClient(token="YOUR_TOKEN")
+resp = client.publish_video(
+    title="Test Video",
+    post_time="2026-03-01 12:00:00",
+    timezone="Asia/Shanghai",
+    video_path="/path/to/test.mp4",
+)
+print(resp)
+
+token获取网址https://t.51suchuang.com
+如遇到问题可联系作者QQ：285952371
+```

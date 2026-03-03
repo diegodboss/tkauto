@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/nicetker/__init__.py
+src/nicetker/client.py
+src/nicetker/py.typed
+src/nicetker.egg-info/PKG-INFO
+src/nicetker.egg-info/SOURCES.txt
+src/nicetker.egg-info/dependency_links.txt
+src/nicetker.egg-info/requires.txt
+src/nicetker.egg-info/top_level.txt
