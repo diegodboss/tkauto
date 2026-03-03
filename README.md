@@ -90,22 +90,6 @@ publish_video(
 )
 ```
 
-## Publish to PyPI
-
-1. Update version in `pyproject.toml`
-2. Build:
-
-```bash
-python -m pip install --upgrade build twine
-python -m build
-```
-
-3. Upload:
-
-```bash
-python -m twine upload dist/*
-```
-
 ## Token
 
 token获取网址：https://t.51suchuang.com
